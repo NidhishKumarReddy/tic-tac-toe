@@ -24,7 +24,7 @@ function Board(props) {
   );
 
   /*
-   * For storing each column value at a particular in the board.
+   * For storing each column value at a particular moment in the board.
    * if current move is "X" we will add 1 to the current column, if "O" we will substract 1 from the current column.
    */
   const [colsCount, setColsCount] = useState(
@@ -32,7 +32,7 @@ function Board(props) {
   );
 
   /*
-   * For storing each diagnoal (left and right) value at a particular in the board.
+   * For storing each diagnoal (left and right) value at a particular moment in the board.
    * if current move is "X" we will add 1 to the current diagnol, if "O" we will substract 1 from the current diagnol.
    */
   const [diagsCount, setDiagsCount] = useState(Array(2).fill(0));

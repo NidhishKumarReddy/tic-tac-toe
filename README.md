@@ -3,9 +3,9 @@
 This is a simple Tic-Tac-Toe game built using React.js. The game is designed to work with any square-sized board (3x3, 4x4, 5x5, etc.) and uses an algorithm to achieve an O(1) complexity.
 
 ### Getting Started
-Clone the repository
-Run npm install to install dependencies
-Run npm start to start the development server
+Clone the repository<br />
+Run npm install to install dependencies<br />
+Run npm start to start the development server<br />
 Open http://localhost:3000 to view it in the browser.
 
 ### Usage
